@@ -6,7 +6,7 @@ phases:
       nodejs: 18
     commands:
       - echo Installing dependencies...
-      - npm install  # no more cd src
+      - npm install
   build:
     commands:
       - echo Build started on `date`
@@ -14,6 +14,6 @@ phases:
 
 artifacts:
   files:  
-    - dist/**/*
-  base-directory: .  # root folder
+    - '**/*'
+  base-directory: dist
   discard-paths: yes
