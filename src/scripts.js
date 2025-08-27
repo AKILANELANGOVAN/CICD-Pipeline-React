@@ -6,6 +6,7 @@ const AppComponent = () => {
     <div>
       <h1>Welcome to the CI/CD Sample Application</h1>
        <p>Current Time: {timerupdaate}</p>
+       <p>im commting this</p>
     </div>
   );
 };
