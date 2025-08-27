@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 14
+      nodejs: 18  # or 16 if you prefer
     commands:
       - echo Installing dependencies...
       - cd src
