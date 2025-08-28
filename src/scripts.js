@@ -7,6 +7,7 @@ const AppComponent = () => {
       <h1>Welcome to the CI/CD Sample Application</h1>
        <p>Current Time: {timerupdaate}</p>
        <p>test for ci and cd piplines</p>
+       <p>Thambi antha 2rs gpay panidu da </p>
     </div>
   );
 };
